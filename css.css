@@ -161,6 +161,7 @@ span.text-content {
 	display: table;
 	height: 100%;
 	left: 0;
+	right: 0;
 	position: absolute;
 	top: 0;
 	width: 100%;
@@ -196,6 +197,11 @@ span.text-content span {
 	height: auto;
 	margin-left: auto;
 	margin-right: auto;
+}
+
+#header p {
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-size: 24px;
 }
 
 hr.top { 

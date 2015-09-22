@@ -1,128 +1,184 @@
-    @charset "UTF-8";
-    /* CSS Document */
-    
-    body {
-        background-color: #EEE;
-    }
-    
-    #menu {
-        font-family: 'Yanone Kaffeesatz', sans-serif;
-        background: rgb(0, 0, 0);
-        background: rgba(0, 0, 0, .8);
-        width: 100%;
-        margin-left: auto;
-        margin-right: auto;
-        height: auto;
-        font-size: 25px;
-        display: block;
-        padding-top: 5px;
-        padding-bottom: 5px;
-        margin-bottom: 20px;
-        text-align: center;
-        position: fixed;
-        left: 0px;
-        right: 0px;
-        top: 0px;
-    }
-    
-    #menu a:link,
-    #menu a:visited {
-        text-decoration: none;
-        display: inline;
-        color: #FFF;
-        padding-left: 10px;
-        padding-right: 10px;
-        font-size: 25px;
-    }
-    
-    #menu a:active,
-    #menu a:hover {
-        transition: color 0.6s ease-in-out;
-        -moz-transition: color .6s ease-in-out;
-        -webkit-transition: color .6s ease-in-out;
-        color: #D4D4D4;
-        text-decoration: none;
-        padding-left: 10px;
-        padding-right: 10px;
-        font-size: 25px;
-    }
-    
-    a.active {
-        font-size: 25px;
-        transition: color 0.6s ease-in-out;
-        -moz-transition: color .6s ease-in-out;
-        -webkit-transition: color .6s ease-in-out;
-        color: #F0817C;
-        text-decoration: none;
-        cursor: pointer;
-        padding-left: 10px;
-        padding-right: 10px;
-    }
-    
-    h1 {
-        width: 40%;
-        max-width: 500px;
-        height: auto;
-        margin-left: auto;
-        margin-right: auto;
-        text-align: center;
-        margin-top: 60px;
-    }
-    
-    h1 img {
-        width: 100%;
-        height: auto;
-    }
-    
-    #banner {
-        margin-top: 50px;
-        height: 500px;
-        width: 100%;
-    }
-    
-    .bsec {
-        position: relative;
-        left: 0px;
-        right: 0px;
-        float: left;
-        height: 100%;
-        overflow: hidden;
-        width: 25%;
-    }
-    
-    span.text-content {
-        background: rgba(0, 0, 0, 0.3);
-        color: #FFF;
-        cursor: pointer;
-        display: table;
-        height: 100%;
-        left: 0;
-        position: absolute;
-        top: 0;
-        width: 100%;
-        opacity: 1;
-        font-family: 'Yanone Kaffeesatz', sans-serif;
-        font-size: 35px;
-        opacity: 0;
-        transition: opacity .5s ease-in-out;
-        -moz-transition: opacity .5s ease-in-out;
-        -webkit-transition: opacity .5s ease-in-out;
-    }
-    
-    span.text-content span {
-        display: table-cell;
-        text-align: center;
-        vertical-align: middle;
-    }
-    
-    .bsec:hover span.text-content {
-        opacity: 1;
-    }
-    
-    #banner img {
-        width: auto;
-        left: 0px;
-        right: 0px;
-        height: 100%;
-        overflow: hidden;
-    }
+@charset "UTF-8";
+
+/* CSS Document */
+
+body {
+	background-color: #EEE;
+}
+
+#menu {
+	font-family: 'Yanone Kaffeesatz', sans-serif;
+	background: rgb(0, 0, 0);
+	background: rgba(0, 0, 0, .8);
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	height: auto;
+	font-size: 25px;
+	display: block;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	margin-bottom: 20px;
+	text-align: center;
+	position: fixed;
+	left: 0px;
+	right: 0px;
+	top: 0px;
+}
+
+#menu a:link,
+#menu a:visited {
+	text-decoration: none;
+	display: inline;
+	color: #FFF;
+	padding-left: 10px;
+	padding-right: 10px;
+	font-size: 25px;
+}
+
+#menu a:active,
+#menu a:hover {
+	transition: color 0.6s ease-in-out;
+	-moz-transition: color .6s ease-in-out;
+	-webkit-transition: color .6s ease-in-out;
+	color: #D4D4D4;
+	text-decoration: none;
+	padding-left: 10px;
+	padding-right: 10px;
+	font-size: 25px;
+}
+
+a.active {
+	font-size: 25px;
+	transition: color 0.6s ease-in-out;
+	-moz-transition: color .6s ease-in-out;
+	-webkit-transition: color .6s ease-in-out;
+	color: #F0817C;
+	text-decoration: none;
+	cursor: pointer;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+h1 {
+	width: 40%;
+	max-width: 500px;
+	height: auto;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	margin-top: 60px;
+}
+
+h2 {
+	font-family: 'Yanone Kaffeesatz', sans-serif;
+	font-size: 35px;
+}
+
+h1 img {
+	width: 100%;
+	height: auto;
+	-webkit-animation: fadein 4s;
+	-moz-animation: fadein 4s;
+	-ms-animation: fadein 4s;
+	-o-animation: fadein 4s;
+	animation: fadein 4s;
+}
+
+@keyframes fadein {
+	from {
+		opacity: 0;
+	}
+	to {
+		opacity: 1;
+	}
+}
+
+@-moz-keyframes fadein {
+	from {
+		opacity: 0;
+	}
+	to {
+		opacity: 1;
+	}
+}
+
+@-webkit-keyframes fadein {
+	from {
+		opacity: 0;
+	}
+	to {
+		opacity: 1;
+	}
+}
+
+@-ms-keyframes fadein {
+	from {
+		opacity: 0;
+	}
+	to {
+		opacity: 1;
+	}
+}
+
+@-o-keyframes fadein {
+	from {
+		opacity: 0;
+	}
+	to {
+		opacity: 1;
+	}
+}
+
+#banner {
+	margin-top: 50px;
+	height: 500px;
+	width: 100%;
+}
+
+.bsec {
+	position: relative;
+	left: 0px;
+	right: 0px;
+	float: left;
+	height: 100%;
+	overflow: hidden;
+	width: 25%;
+}
+
+span.text-content {
+	background: rgba(0, 0, 0, 0.3);
+	color: #FFF;
+	cursor: pointer;
+	display: table;
+	height: 100%;
+	left: 0;
+	position: absolute;
+	top: 0;
+	width: 100%;
+	opacity: 1;
+	font-family: 'Yanone Kaffeesatz', sans-serif;
+	font-size: 35px;
+	opacity: 0;
+	transition: opacity .5s ease-in-out;
+	-moz-transition: opacity .5s ease-in-out;
+	-webkit-transition: opacity .5s ease-in-out;
+}
+
+span.text-content span {
+	display: table-cell;
+	text-align: center;
+	vertical-align: middle;
+}
+
+.bsec:hover span.text-content {
+	opacity: 1;
+}
+
+#banner img {
+	width: auto;
+	left: 0px;
+	right: 0px;
+	height: 100%;
+	overflow: hidden;
+}

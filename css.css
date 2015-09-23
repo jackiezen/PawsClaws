@@ -24,6 +24,7 @@ body {
 	left: 0px;
 	right: 0px;
 	top: 0px;
+	z-index:100;
 }
 
 #menu a:link,
@@ -82,6 +83,13 @@ h3 {
 	font-size: 50px;
 	text-align: left;
 }
+
+h4 {
+	font-family: 'Yanone Kaffeesatz', sans-serif;
+	font-size: 50px;
+	text-align: center;
+}
+
 
 h1 img {
 	width: 100%;
@@ -211,4 +219,90 @@ hr.top {
   background-image: -moz-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
   background-image: -ms-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
   background-image: -o-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0); 
+}
+
+.headerImgTops {
+	margin-left: auto;
+	margin-right: auto;
+	width: 80%;
+	height: 300px;
+	background: url(images/tops/banner.png) no-repeat center center;
+	background-size: contain;
+	margin-top: -10px;
+}
+
+.headerImgPants {
+	margin-left: auto;
+	margin-right: auto;
+	width: 80%;
+	height: 300px;
+	background: url(images/pants/banner.png) no-repeat center center;
+	background-size: contain;
+	margin-top: -10px;
+}
+
+#products {
+	margin-top: 50px;
+	height: 500px;
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.items {
+	position: relative;
+	left: 0px;
+	right: 0px;
+	float: left;
+	height: 100%;
+	overflow: hidden;
+	width: 25%;
+/*	background: rgba(255, 255, 255, 0.3);*/
+}
+
+span.text-content {
+	background: rgba(0, 0, 0, 0.5);
+	color: #FFF;
+	cursor: pointer;
+	display: table;
+	max-height: 100%;
+	position: absolute;
+	top: 0;
+	max-width: 100%;
+	font-family: 'Yanone Kaffeesatz', sans-serif;
+	font-size: 35px;
+	opacity: 0;
+	transition: opacity .5s ease-in-out;
+	-moz-transition: opacity .5s ease-in-out;
+	-webkit-transition: opacity .5s ease-in-out;
+}
+
+
+span.text-content span {
+	display: table-cell;
+	text-align: center;
+	vertical-align: middle;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.items:hover span.text-content {
+	opacity: 1;
+}
+
+#products img {
+    vertical-align: middle;
+    display: inline-block;
+    max-height: 100%;
+    max-width: 100%;
+}
+
+.headerImgDress {
+	margin-left: auto;
+	margin-right: auto;
+	width: 80%;
+	height: 300px;
+	background: url(images/dress/banner.png) no-repeat center center;
+	background-size: contain;
+	margin-top: -10px;
 }

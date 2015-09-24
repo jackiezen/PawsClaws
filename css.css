@@ -265,10 +265,10 @@ span.text-content {
 	color: #FFF;
 	cursor: pointer;
 	display: table;
-	max-height: 100%;
+	max-height: 800px;
 	position: absolute;
 	top: 0;
-	max-width: 100%;
+	max-width: 500px;
 	font-family: 'Yanone Kaffeesatz', sans-serif;
 	font-size: 35px;
 	opacity: 0;
@@ -293,8 +293,10 @@ span.text-content span {
 #products img {
     vertical-align: middle;
     display: inline-block;
-    max-height: 100%;
+    max-height: 800px;
     max-width: 100%;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 .headerImgDress {
@@ -303,6 +305,36 @@ span.text-content span {
 	width: 80%;
 	height: 300px;
 	background: url(images/dress/banner.png) no-repeat center center;
+	background-size: contain;
+	margin-top: -10px;
+}
+
+.headerImgOuter {
+	margin-left: auto;
+	margin-right: auto;
+	width: 80%;
+	height: 300px;
+	background: url(images/outer/banner.png) no-repeat center center;
+	background-size: contain;
+	margin-top: -10px;
+}
+
+.headerImgShoes {
+	margin-left: auto;
+	margin-right: auto;
+	width: 80%;
+	height: 300px;
+	background: url(images/shoes/banner.png) no-repeat center center;
+	background-size: contain;
+	margin-top: -10px;
+}
+
+.headerImgAcc {
+	margin-left: auto;
+	margin-right: auto;
+	width: 80%;
+	height: 300px;
+	background: url(images/acc/banner.png) no-repeat center center;
 	background-size: contain;
 	margin-top: -10px;
 }

@@ -90,6 +90,13 @@ h4 {
 	text-align: center;
 }
 
+h5 {
+	font-family: 'Yanone Kaffeesatz', sans-serif;
+	font-size: 80px;
+	text-align: center;
+	line-height: 20px;
+}
+
 h1 img {
 	width: 100%;
 	height: auto;
@@ -344,6 +351,18 @@ span.text-content span {
 	margin-top: -10px;
 }
 
+#headerImgFeatured {
+	margin-left: auto;
+	margin-right: auto;
+	width: 100%;
+	position: relative;
+	background: url(images/home/banner.png) no-repeat center center;
+	background-size: 100%;
+	min-height: 300px;
+	background-attachment: fixed;
+	background-color: #FFF;
+}
+
 #headerImgJewelry {
 	margin-left: auto;
 	margin-right: auto;
@@ -400,4 +419,15 @@ span.text-content span {
 	height: 100%;
 	overflow: hidden;
 	margin-bottom: 50px;
+}
+
+#featured {
+	width: 100%;
+	height: auto;
+}
+
+#featured img{
+	width: 100%;
+	height: auto;
+	display: block;
 }

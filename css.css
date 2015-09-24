@@ -159,6 +159,7 @@ h1 img {
 	height: 100%;
 	overflow: hidden;
 	width: 25%;
+	display: block;
 }
 
 span.text-content {
@@ -179,6 +180,7 @@ span.text-content {
 	transition: opacity .5s ease-in-out;
 	-moz-transition: opacity .5s ease-in-out;
 	-webkit-transition: opacity .5s ease-in-out;
+	display: block;
 }
 
 span.text-content span {
@@ -243,10 +245,11 @@ hr.top {
 
 #products {
 	margin-top: 50px;
-	height: 500px;
+	height: auto;
 	width: 80%;
 	margin-left: auto;
 	margin-right: auto;
+	display: block;
 }
 
 .items {
@@ -347,7 +350,7 @@ span.text-content span {
 	margin-top: -10px;
 }
 
-#footer {
+.footer {
 	font-family: 'Yanone Kaffeesatz', sans-serif;
 	background: rgb(0, 0, 0);
 	background: rgba(0, 0, 0, .8);
@@ -363,9 +366,10 @@ span.text-content span {
 	right: 0px;
 	bottom: 0px;
 	padding-top: 10px;
+	
 }
 
-#footer img {
+.footer img {
 	width: 40px;
 	height: 40px;
 	margin: 10px 10px;
@@ -374,7 +378,6 @@ span.text-content span {
 #arrow {
 	float: right;
 	display: inline-block;
-
 }
 
 .icon:hover {

@@ -35,7 +35,7 @@
 	<h4>OUTERWEAR</h4>
 
 
-
+	<div class="wrapper">
 	<div id="products">
 		<div class="items">
 			<a href="http://www.modcloth.com/shop/diy/the-purr-fect-disguise-mask?" target="_blank">
@@ -57,8 +57,30 @@
 
 
 	</div>
+	</div>
+
+	<div class="footer">
+		<a href="http://www.facebook.com" target="_blank"><img class="icon" src="icons/facebook.png"></a>
+		<a href="http://www.instagram.com" target="_blank"><img class="icon" src="icons/instagram.png"></a>
+		<a href="http://www.twitter.com" target="_blank"><img class="icon" src="icons/twitter.png"></a>
+		<a href="mailto:#" target="_blank"><img class="icon" src="icons/email.png"></a>
+
+		<a href="#menu"><img class="icon" id="arrow" src="icons/arrow.PNG"></a>
+
+	</div>
+
 
 
 </body>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+<script type="text/javascript">
+	$("a[href='#menu']").click(function () {
+		$("html, body").animate({
+			scrollTop: 0
+		}, "slow");
+		return false;
+	});
+</script>
 
 </html>

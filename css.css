@@ -299,7 +299,7 @@ span.text-content span {
 	margin-right: auto;
 }
 
-.headerImgDress {
+#headerImgDress {
 	margin-left: auto;
 	margin-right: auto;
 	width: 80%;
@@ -308,8 +308,7 @@ span.text-content span {
 	background-size: contain;
 	margin-top: -10px;
 }
-
-.headerImgOuter {
+#headerImgOuter {
 	margin-left: auto;
 	margin-right: auto;
 	width: 80%;
@@ -319,7 +318,7 @@ span.text-content span {
 	margin-top: -10px;
 }
 
-.headerImgShoes {
+#headerImgShoes {
 	margin-left: auto;
 	margin-right: auto;
 	width: 80%;
@@ -329,12 +328,22 @@ span.text-content span {
 	margin-top: -10px;
 }
 
-.headerImgAcc {
+#headerImgAcc {
 	margin-left: auto;
 	margin-right: auto;
 	width: 80%;
 	height: 300px;
 	background: url(images/acc/banner.png) no-repeat center center;
+	background-size: contain;
+	margin-top: -10px;
+}
+
+#headerImgJewelry {
+	margin-left: auto;
+	margin-right: auto;
+	width: 80%;
+	height: 300px;
+	background: url(images/jewelry/banner.png) no-repeat center center;
 	background-size: contain;
 	margin-top: -10px;
 }
